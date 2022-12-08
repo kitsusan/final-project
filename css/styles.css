@@ -85,6 +85,10 @@ header li a {
     text-decoration: none;
 }
 
+h2 {
+    color: #faebd7;
+}
+
 
 /* Hero */
 
@@ -157,21 +161,21 @@ header li a {
     background-color: #212020;
     border-radius: 5px;
     border-top: 5px solid #AE2F16;
-  }
+}
   
-  .testimonial *,
-  .testimonial *:before {
+.testimonial *,
+.testimonial *:before {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-transition: all 0.1s ease-out;
     transition: all 0.1s ease-out;
-  }
+}
   
-  .testimonial figcaption {
+.testimonial figcaption {
     padding: 13% 10% 12%;
-  }
+}
   
-  .testimonial figcaption:before {
+.testimonial figcaption:before {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     background-color: #fff;
@@ -187,31 +191,28 @@ header li a {
     position: absolute;
     top: -30px;
     width: 60px;
-  }
+}
   
-  .testimonial h3 {
+.testimonial h3 {
     color: #ffffff;
     font-size: 20px;
     font-weight: 300;
     line-height: 24px;
     margin: 10px 0 5px;
-  }
+}
   
-  .testimonial h4 {
+.testimonial h4 {
     font-weight: 400;
     margin: 0;
     opacity: 0.5;
-  }
+}
   
-  .testimonial blockquote {
+.testimonial blockquote {
     font-style: italic;
     font-weight: 300;
     margin: 0 0 20px;
-  }
+}
   
-
-
-
 /* Footer */
 
 footer {
@@ -288,6 +289,10 @@ footer li a {
 
 /* About */
 
+
+p.title {
+    font-family: 'Cinzel', serif;
+}
 .wrapper h2 {
     text-align: center;
     margin: 20px 0 10px 0;
