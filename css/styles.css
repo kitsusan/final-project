@@ -85,11 +85,6 @@ header li a {
     text-decoration: none;
 }
 
-h2 {
-    color: #faebd7;
-}
-
-
 /* Hero */
 
 .hero {
@@ -265,7 +260,7 @@ footer li a {
 .fa-instagram {
     background: #c29635;
     color: #000000;
-  }
+}
 
 .fa-linkedin {
     background: #c29635;
@@ -278,9 +273,8 @@ footer li a {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 50%;
-    margin-right: 50%;
-    
-  }
+    margin-right: 50%;    
+}
 
   .footer-menu {
     color: grey;
@@ -293,6 +287,7 @@ footer li a {
 p.title {
     font-family: 'Cinzel', serif;
 }
+
 .wrapper h2 {
     text-align: center;
     margin: 20px 0 10px 0;
@@ -302,8 +297,7 @@ p.title {
     float: left;
     width: 30%;
     margin-bottom: 16px;
-    padding: 0 8px;
-    
+    padding: 0 8px;    
 }
 
 .card {
@@ -338,6 +332,75 @@ p.title {
     display: table;
 }
 
+/* portfolio */
+
+.question {
+    color: #faebd7;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.video {
+    text-align: center;
+    padding: 50px;
+}
+
+/* contact */
+
+.addwrap {
+    width: 100%;
+    overflow: hidden;
+}
+
+.address {
+    width: 300px;
+    float: left;
+}
+
+.map {
+    padding: 100px 50px 50px 50px;
+    overflow: hidden;
+}
+
+input[type=text], input[type=number], input[type=email], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 5px; 
+    margin-bottom: 15px; 
+    resize: vertical;
+}
   
-
-
+input[type=submit] {
+    display: block;
+    width: 100px;
+    padding: 1em;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #faebd7;
+    text-decoration: none;
+    font-size: 1em;
+    border: 3px solid #faebd7;
+    border-radius: 20px;
+    background-color: rgba(194, 150, 53, 0.6);
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: rgba(194, 150, 53, 0.8);
+}
+  
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 20px;
+}
+  
+.address {
+    text-align: left;
+    margin:100px 10px 10px 10px;
+}
