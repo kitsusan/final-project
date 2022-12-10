@@ -227,6 +227,8 @@ footer {
     font-size: 10px;
     padding: 50px 0;
     text-align: center;
+    color: #808080;
+    height: 150px;
   }
 
 footer li a {
@@ -285,10 +287,6 @@ footer li a {
     margin-right: 50%;    
 }
 
-  .footer-menu {
-    color: grey;
-    height: 150px;
-}
 
 /* About */
 
