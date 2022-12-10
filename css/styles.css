@@ -41,6 +41,11 @@ main {
 
 p {
     font-family: 'Raleway', sans-serif;
+    color: #faebd7;
+}
+
+h2 {
+    color:#faebd7;
 }
 
 /* Nav Bar */
@@ -188,6 +193,10 @@ header li a {
     width: 60px;
 }
   
+.services-column {
+    margin: 0 0 40px 0;
+}
+
 .testimonial h3 {
     color: #ffffff;
     font-size: 20px;
@@ -290,7 +299,7 @@ p.title {
 
 .wrapper h2 {
     text-align: center;
-    margin: 20px 0 10px 0;
+    margin: 40px 0 10px 0;
 }
 
 .column {
@@ -334,9 +343,33 @@ p.title {
 
 /* portfolio */
 
+.pagehead {
+    margin-top: 100px;
+    color: #c29635;
+    text-align: center;
+}
+
+.website-designs {
+    display: flex;
+    margin: 100px 20px 20px 20px;
+}
+
+.fakesite1, .fakesite2, .fakesite3 {
+    margin: 0 20px 0 20px;
+    text-align: center;
+}
+
+
+
+.website-designs img {
+    width: 200px;
+    padding: 10px;
+}
+
 .question {
     color: #faebd7;
     margin-top: 40px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -404,3 +437,4 @@ input[type=submit]:hover {
     text-align: left;
     margin:100px 10px 10px 10px;
 }
+
