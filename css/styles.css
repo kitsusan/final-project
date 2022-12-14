@@ -76,15 +76,15 @@ header li {
     margin: 20px;
 }
 
-header li a:visited{
-    color: #585151;
+header li a:visited {
+    color:#808080;
 }
 
-header li a:hover{
+header li a:hover, .email-address a:hover {
     color: #AE2F16;
 }
 
-header li a {
+header li a, .email-address a {
     color: #faebd7;
     text-decoration: none;
 }
@@ -281,19 +281,22 @@ footer li a {
 
 .column {
     float: left;
-    width: 30%;
+    width: 33.3%;
+    box-sizing: border-box;
     margin-bottom: 16px;
-    padding: 0 8px;    
+    padding: 0 8px;  
 }
 
 .card {
+    position: relative;
     box-shadow: 0 4px 8px 0 #781010;
     height: 1050px;
 }
   
 .container {
     padding: 0 10px;
-    line-height: 1.6;;
+    line-height: 1.6;
+    height: 685px;
 }
 
 .title {
@@ -303,16 +306,16 @@ footer li a {
 }
 
 .row .button {
+    position: absolute;
+    bottom: 10px;
     width: fit-content;
     height: fit-content;
     font-size: 15px;
     font-family: cinzel;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+    margin: 20px 65px 20px 65px;
 }
  
-.container::after, .row::after {
+.container::after, .row::after, .website-designs::after {
     content: "";
     clear: both;
     display: table;
@@ -327,12 +330,14 @@ footer li a {
 }
 
 .website-designs {
-    display: flex;
     margin: 100px 20px 20px 20px;
 }
 
 .fakesite1, .fakesite2, .fakesite3 {
-    margin: 0 20px 0 20px;
+    /* margin: 0 20px 0 20px; */
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
     text-align: center;
 }
 
@@ -408,9 +413,16 @@ input[type=submit]:hover {
     width: 500px;
     padding: 20px;
 }
+
+.email-address a {
+    color:#c29635
+}
   
 .address {
     text-align: left;
     margin:100px 10px 10px 10px;
 }
 
+checkbox > input:checked {
+    background-color: #781010;
+}
