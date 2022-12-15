@@ -334,7 +334,6 @@ footer li a {
 }
 
 .fakesite1, .fakesite2, .fakesite3 {
-    /* margin: 0 20px 0 20px; */
     float: left;
     width: 33.3%;
     box-sizing: border-box;
@@ -423,6 +422,6 @@ input[type=submit]:hover {
     margin:100px 10px 10px 10px;
 }
 
-checkbox > input:checked {
-    background-color: #781010;
+input[type=checkbox] {
+    accent-color: #781010;
 }
